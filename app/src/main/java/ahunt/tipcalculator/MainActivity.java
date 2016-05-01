@@ -15,9 +15,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_main);
-
-
-
     }
 
     public void onButtonClick(View v){
@@ -40,7 +37,8 @@ public class MainActivity extends AppCompatActivity {
         assert t1 != null;
         assert t2 != null;
 
-        t1.setText(Double.toString(totalWithTip));
-        t2.setText(Double.toString(tip));
+
+        t1.setText(String.format("your total is %.2f", totalWithTip));
+        t2.setText(String.format("  your tip is %.2f", tip));
     }
 }
