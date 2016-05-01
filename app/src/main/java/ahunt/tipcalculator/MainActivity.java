@@ -31,8 +31,8 @@ public class MainActivity extends AppCompatActivity {
         assert e1 != null;
         assert e2 != null;
 
-        double total = Integer.parseInt(e1.getText().toString());
-        double percent = Integer.parseInt(e2.getText().toString());
+        double total = Double.parseDouble(e1.getText().toString());
+        double percent = Double.parseDouble(e2.getText().toString());
 
         double totalWithTip = total + ((total * percent) / 100);
         double tip = ((total * percent) / 100);
