@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">TipCalculator</string>
+    <string name="app_name">tip calculator</string>
     <string name="total">Please Enter Your Total</string>
     <string name="percent">Please Enter Your Percent</string>
     <string name="calculate">Calculate Tip</string>
